@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="form_validation.css">
+    </head>
+    <body>
+        <section class="form"  >
+            <div class="form-validation" >
+                <div class="login-form" id="login-form"> 
+                    <button id="btn1" onclick="changeTheme('black')"></button>
+                    <button id="btn2" onclick="changeTheme('white')"></button>
+                    <button id="btn3" onclick="changeTheme('transparent')" style="background-color: rgb(23, 167, 167);"></button>
+                    <h2 id="heading">Login</h2>
+                    <form action="redirected.html" onsubmit="return validateForm()">
+                        <input type="text" placeholder="Email" id="email"><br>
+                        <p id="emailError"></p>
+                        <input type="password" placeholder="Password" id="password">
+                        <i class="bi bi-eye-slash" id="togglePassword"></i><br>
+                        <p id="passwordError"></p>
+                        <input type="submit" style="width: 100%;">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="form_validation.js"></script>
+    </body>
+</html>

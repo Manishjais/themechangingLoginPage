@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+.form{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112__340.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    border-radius: 10%;
+    border:5px solid rgb(14, 13, 13);
+    padding: 50px;
+    box-shadow: 10px 23px  rgb(139, 201, 196);
+   background-color: black;
+}
+
+.login-form h2{
+   text-align: center;
+   color: cadetblue;
+}
+.login-form button{
+    /*for changing theme button*/
+    cursor: pointer;
+    float: right;
+    margin-top: 0px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    border:2px solid black
+}
+.login-form #btn1{
+    background-color: black;
+}
+.login-form #btn2{
+    background-color: white;
+}
+.login-form #btn3{
+    background-color: transparent;
+}
+.login-form input{
+    
+    padding: 8px;
+    margin-top: 20px ;
+    
+    cursor: pointer;
+}
+.login-form input:hover{
+    padding: 4px;
+    border:2px solid blue
+}
+.login-form p{
+    color: red;
+    margin: 0px;
+}
+#togglePassword{
+    margin-left: -30px;
+    cursor: pointer;
+}
+/*linear-gradient(rgb(158, 241, 235),indigo,violet);*/
